@@ -6,7 +6,7 @@ import {
 	ArticleStateType,
 } from '../../constants/articleProps';
 
-import styles from './App.module.scss';
+import styles from '../../styles/index.module.scss';
 
 export const App = () => {
 	const [fontFamily, setFontFamily] = useState<string>(
